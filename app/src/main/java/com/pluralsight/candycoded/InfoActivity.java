@@ -44,8 +44,8 @@ public class InfoActivity extends AppCompatActivity {
         Intent phIntent = new Intent(Intent.ACTION_DIAL);
         phIntent.setData(uri);
         startActivity(phIntent);
-        }
     }
+
 
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
@@ -55,4 +55,4 @@ public class InfoActivity extends AppCompatActivity {
     // TODO - Task 3 - Launch the Phone Activity
     // ***
 
-
+}
